@@ -49,3 +49,4 @@ Server/cache/
 Client/coverage/
 Server/coverage/
 # Ignore temporary files
+*.env

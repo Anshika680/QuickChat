@@ -49,10 +49,9 @@ app.use('/api/messages', messageRouter);
 
 if (process.env.NODE_ENV !== 'production') {
 
-const PORT = process.env.PORT || 5000;
-server.listen(PORT, () =>
+    const PORT = process.env.PORT || 5000;
+    server.listen(PORT, () =>
     console.log(`Server is listening on ${PORT}`)
-);
-}
+)};
 
 export default server;

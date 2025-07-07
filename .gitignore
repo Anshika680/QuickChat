@@ -1,6 +1,51 @@
-node_modules
-<<<<<<< HEAD
-.env
-=======
-.env
->>>>>>> 7f50a53475dd783a9929b01e2ce2e0adfd4d513a
+Client/node_modules/
+Server/node_modules/
+Client/build/
+# Ignore environment files
+Client/.env
+Server/.env
+# Ignore logs
+Client/logs/
+Server/logs/
+# Ignore temporary files
+Client/tmp/
+Server/tmp/
+# Ignore IDE specific files
+Client/.vscode/
+Server/.vscode/
+# Ignore OS generated files
+.DS_Store
+# Ignore coverage reports
+Client/coverage/
+Server/coverage/
+# Ignore build artifacts
+Client/dist/
+
+Server/dist/
+# Ignore package lock files
+Client/package-lock.json
+Server/package-lock.json
+# Ignore yarn lock files
+Client/yarn.lock
+Server/yarn.lock
+# Ignore npm debug logs
+npm-debug.log*
+# Ignore yarn debug logs
+yarn-debug.log*
+# Ignore test reports
+Client/test-reports/    
+
+Server/test-reports/
+# Ignore IDE specific settings
+Client/.idea/
+Server/.idea/
+# Ignore build directories
+Client/build/
+Server/build/
+# Ignore cache directories
+Client/cache/
+Server/cache/
+# Ignore coverage directories
+Client/coverage/
+Server/coverage/
+# Ignore temporary files

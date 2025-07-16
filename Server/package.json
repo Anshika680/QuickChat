@@ -5,7 +5,6 @@
   "main": "Server.js",
   "scripts": {
     "server": "nodemon Server.js",
-    
     "start": "node Server.js"
   },
   "type": "module",
